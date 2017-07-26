@@ -75,7 +75,9 @@ public class WalkModDispatcher {
 	public WalkModDispatcher() {
 
 	}
-
+/**
+ * Prints Header
+ */
 	public static void printHeader() {
 		log.info("Java version: " + System.getProperty("java.version"));
 		log.info("Java Home: " + System.getProperty("java.home"));
